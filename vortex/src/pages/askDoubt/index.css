@@ -1,0 +1,14 @@
+.ask-doubt-wrapper{
+    height: 90vh;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.ask-doubt-form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}

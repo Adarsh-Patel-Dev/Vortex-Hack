@@ -1,0 +1,41 @@
+.solve-doubt-wrapper{
+    height: 90vh;
+    width: auto;
+    padding: 20px 50px;
+    background-color: rgb(171, 92, 245);
+}
+
+.doubt-list{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.doubt-list li{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+}
+
+.doubt-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-btn{
+    padding: 10px;
+    height: fit-content;
+}
+
+.tag{
+    border: 2px solid green;
+    background-color: greenyellow;
+    color: green;
+    padding: 2px 8px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+}
