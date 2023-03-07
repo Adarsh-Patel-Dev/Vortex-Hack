@@ -1,0 +1,81 @@
+.solve-doubt-wrapper{
+    height: 90vh;
+    width: auto;
+    padding: 20px 50px;
+    background-color: rgb(209, 168, 248);
+}
+
+.doubt-list{
+ list-style: none;
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.submit-btn{
+ width: 50%;
+ margin: 20px 0;
+}
+
+.doubt-list li button{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.doubt-list li{
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    padding: 15px 25px;
+    background-color: bisque;
+    color: black;
+}
+
+.doubt-section{
+    margin-bottom: -35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doubt-details strong{
+    font-size: medium;
+}
+
+.sol-textarea{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 20vh;
+    width: 80%;
+}
+
+.primary-btn{
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.tag{
+    border: 2px solid green;
+    background-color: greenyellow;
+    color: green;
+    padding: 2px 8px;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.vote-btn{
+    display: flex;
+    gap: 10px;
+}
+.vote-btn button{
+    border: 2px solid blueviolet !important;
+    background-color: aliceblue !important;
+    color: blueviolet !important;
+}
