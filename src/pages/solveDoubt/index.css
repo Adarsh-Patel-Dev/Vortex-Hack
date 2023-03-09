@@ -39,3 +39,10 @@
     font-weight: 700;
     border-radius: 20px;
 }
+
+.empty-doubt-mgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}

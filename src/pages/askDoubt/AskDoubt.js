@@ -27,11 +27,13 @@ function AskDoubt() {
         <span>Title of doubt</span>
         <input
           required
+          value={doubtTitle}
           onChange={(e) => setDoubtTitle(e.target.value)}
           placeholder="enter title of doubt"
         />
         <span>Description of doubt</span>
         <textarea
+        value={doubtDesc}
         required
           onChange={(e) => setDoubtDesc(e.target.value)}
           placeholder="describe your doubt in detail..."

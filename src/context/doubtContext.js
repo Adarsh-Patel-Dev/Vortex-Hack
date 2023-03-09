@@ -6,7 +6,7 @@ const useDoubtContext = () => useContext(DoubtContext);
 function DoubtsProvider({ children }) {
     const [doubtTitle, setDoubtTitle] = useState("");
     const [doubtDesc, setDoubtDesc] = useState("");
-    const [tag, setTag] = useState("");
+    const [tag, setTag] = useState("Array");
     const [doubtList, setDoubtList] = useState([])
 
     return (

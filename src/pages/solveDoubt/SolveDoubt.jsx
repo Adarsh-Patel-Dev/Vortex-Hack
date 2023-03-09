@@ -10,7 +10,7 @@ function SolveDoubt() {
   return (
     <div className="solve-doubt-wrapper">
       {
-        doubtList.map(e=>(<DoubtList prop={e}/>))
+        doubtList.length>0 ? ( doubtList.map(e=>(<DoubtList prop={e}/>))) : <p className="empty-doubt-mgs">Your doubts will appear here.</p>
       }
       
     </div>
